@@ -25,5 +25,10 @@ python3 -m unittest discover skills/context-onboarding/tests
 ## Packaging & release
 
 ```bash
-python3 /home/pi/.npm-global/lib/node_modules/openclaw/skills/skill-creator/scripts/package_skill.py skills/context-onboarding
+python3 $(npm root -g)/openclaw/skills/skill-creator/scripts/package_skill.py skills/context-onboarding
 ```
+
+## Links
+
+- **GitHub:** https://github.com/CrimsonDevil333333/context-onboarding
+- **ClawHub:** https://www.clawhub.ai/skills/context-onboarding
